@@ -1,7 +1,9 @@
-#Step 1: Humility
+#Introduction
+
+##Step 1: Humility
 Get that pride out of your head now. It starts here. You can't learn if you obsess over how much you know. I wrote [Ignore what you've heard about writing "good code"](http://codepen.io/jakealbaugh/blog/ignore-what-youve-heard-about-writing-good-code) with this idea in mind. Took me three years to get into the right mindset. It can start for you now.
 
-#Step 2: Tooling
+##Step 2: Tooling
 One of the most important things about development is your toolset. The following is a handful of tools you should use. For account-based tools, try and keep the usernames consistent. It makes networking easier in the long run and looks nice.
 
 - A good email account for every account related to dev. For me a personal email worked out fine. For you, it may make more sense to have a different one. You'll get lots of updates.
