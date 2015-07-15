@@ -1,4 +1,4 @@
-#Basic Website: HTML
+#2. Basic Website: HTML
 
 We are going to start creating a basic website. The most important component on a website is the HTML. HTML is the bare bones data on a page. The key to authoring *quality* HTML is to organize it as simply as possible. Sometimes that means a lot of organization, sometimes you hardly need anything. 
 
