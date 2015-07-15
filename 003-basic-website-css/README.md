@@ -29,6 +29,7 @@ A series of declarations inside of the brackets is called a **declaration block*
 
 ##Lesson
 - Duplicate the `me-and-code.html` file from lesson 002 into the lesson 003 folder.
+- Open the new `me-and-code.html` file in Chrome.
 - Add the following code on a new line before `</head>` in the new `me-and-code.html` file:
 
 ```html
