@@ -1,4 +1,4 @@
-#Basic Website: CSS
+#3. Basic Website: CSS
 
 We are going to start styling our HTML page from lesson 002 with CSS.
 
