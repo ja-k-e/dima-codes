@@ -1,6 +1,6 @@
 ## Dima reflects on lessons 001-002 
 
-_and then builds a basic site using the material covered:_
+_and then builds a basic HTML site using the material covered:_
 
 - ### Lesson 001 
 	- Uncomment code to reveal the the functionality of HTML, CSS, and Javascript in synchronicity 
