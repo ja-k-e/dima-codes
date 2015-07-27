@@ -1,4 +1,4 @@
-## Dima reflects on lessons 001-003 
+## Dima reflects on lessons 001-002 
 
 _and then builds a basic site using the material covered:_
 
@@ -19,12 +19,3 @@ _and then builds a basic site using the material covered:_
 	
 	- Attribute Values 
 	
-- ### Lesson 003 
-	
-	- CSS 
-		- Selectors
-		- Properties
-		- Values 
-		- Declarations 
-		- Declaration Blocks 
-	 	
