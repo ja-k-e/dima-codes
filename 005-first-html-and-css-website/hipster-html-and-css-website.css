@@ -1,0 +1,53 @@
+body {
+  font-family: Helvetica;
+}
+
+.header {
+  font-size: 60px;
+  color: #3ec8c3;
+  text-align: center;
+  padding-bottom: 65px;
+  border-bottom: solid 40px;
+  margin: 0px 0px 40px 0px;
+}
+
+span {
+  text-align: center; 
+  font-style: italic;
+  font-size: 14px;
+  color: #8d9a9b;
+}
+
+.steps {
+  color: #8d9a9b;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h2 {
+  background-color: #ffff7f;
+  font-size: 40px;
+}
+
+.text {
+  font-size: 17px;
+  margin: 0px 250px 40px 250px;
+  text-align: left;
+  color: #8d9a9b;
+}
+
+p {
+  font-size: 35px;
+  color: #3ec8c3; 
+}
+
+.img_size img {
+  width: 400px;
+  height: auto;
+}
+
+#footer {
+  color: #3ec8c3;
+  text-align: center;
+  padding: 40px;
+}
