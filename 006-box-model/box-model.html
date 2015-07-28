@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Box Model</title>
+    <link rel="stylesheet" type="text/css" href="box-model.css">
+  </head>
+
+  <body>
+
+    <main>
+
+      <h1>Padding and Margin</h1>
+      <section class="padding-margin">
+        <div class="box box-1">20px of padding</div>
+        <div class="box box-2">20px of margin</div>
+        <div class="box box-3">20px of padding and 20px of margin</div>
+      </section>
+
+      <h1>Padded divs with display: inline-block</h1>
+      <section class="display-inline-block">
+        <div class="box">20px of padding, display inline-block</div>
+        <div class="box">20px of padding, display inline-block</div>
+        <div class="box">20px of padding, display inline-block</div>
+      </section>
+
+      <h1>Padded divs with display: inline</h1>
+      <section class="display-inline">
+        <div class="box">20px of padding, display inline</div>
+        <div class="box">20px of padding, display inline</div>
+        <div class="box">20px of padding, display inline</div>
+      </section>
+
+      <h1>Padded spans with display: block</h1>
+      <section class="display-block">
+        <!-- using spans because divs default to display: block; -->
+        <!-- FYI spans default to display: inline; -->
+        <span class="box">20px of padding, display block</span>
+        <span class="box">20px of padding, display block</span>
+        <span class="box">20px of padding, display block</span>
+      </section>
+
+      <h1>Inline block divs with margins</h1>
+      <section class="inline-block-margins">
+        <div class="box box-1">20px of right margin, display inline block</div>
+        <div class="box box-2">no margin, display inline block</div>
+        <div class="box box-3">20px of left margin, display inline block</div>
+      </section>
+
+    </main>
+
+  </body>
+</html>

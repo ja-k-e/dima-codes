@@ -1,0 +1,55 @@
+/* Padding and Margin */
+
+.padding-margin .box-1 { padding: 20px; }
+.padding-margin .box-2 { margin: 20px; }
+.padding-margin .box-3 { padding: 20px; margin: 20px; }
+
+/* Padded divs with display inline block */
+
+.display-inline-block .box { display: inline-block; padding: 20px; }
+
+/* Padded divs with display inline */
+
+.display-inline .box { display: inline; padding: 20px; }
+
+/* Padded spans with display block */
+
+.display-block .box { display: block; padding: 20px; }
+
+/* Inline block divs with margins */
+
+.inline-block-margins .box { display: inline-block; }
+.inline-block-margins .box-1 { margin-right: 20px; }
+.inline-block-margins .box-3 { margin-left: 20px; }
+
+
+/*
+ * Ignore below, just some basic layout that you don't need to worry about.
+ * Feel free to study it, but it is not necessary for this lesson.
+ */
+
+
+/* typography */
+body {
+  font-family: sans-serif;
+}
+h1 {
+  margin: 20px 0 10px;
+}
+
+/* the main content wrapper */
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* each section */
+section {
+  border: 2px solid teal;
+}
+
+/* basic visual styling for each box */
+.box {
+  background: hotpink;
+}
