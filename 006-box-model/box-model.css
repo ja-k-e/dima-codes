@@ -1,23 +1,54 @@
 /* Padding and Margin */
 
+.padding-margin .box-1 {
+  padding: 20px;
+}
 
+.padding-margin .box-2 {
+  margin: 20px;
+}
+
+.padding-margin .box-3 {
+  margin: 20px;
+  padding: 20px;
+}
 
 /* Padded divs with display inline block */
 
-
+.display-inline-block .box {
+  display: inline-block;
+  padding: 20px;
+}
 
 /* Padded divs with display inline */
 
-
+.display-inline .box {
+  display: inline;
+  padding: 20px; 
+}
 
 /* Padded spans with display block */
 
-
+.display-block .box {
+  display: block;
+  padding: 20px;
+}
 
 /* Inline block divs with margins */
 
+.inline-block-margins .box-1 {
+  display: inline-block;
+  margin-right: 20px;
+}
 
+.inline-block-margins .box-2 {
+  display: inline-block;
+}
 
+.inline-block-margins .box-3 {
+  display: inline-block;
+  margin-left: 20px; 
+}
 
 /*
  * Ignore below, just some basic layout that you don't need to worry about.
@@ -29,8 +60,9 @@
 body {
   font-family: sans-serif;
 }
+
 h1 {
-  margin: 20px 0 10px;
+  margin: 20px 0px 10px;
 }
 
 /* the main content wrapper */
