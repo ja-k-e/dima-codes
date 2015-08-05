@@ -1,0 +1,222 @@
+body {
+  background-color: #ffffff;
+  font-family: sans-serif;
+  margin: auto;
+  /*
+    margin-top: auto;
+    margin-bottom: auto;
+    translates to 0, because...just because.
+    I have never used either.
+
+    Commonly, people say:
+    margin: 0 auto;
+    Because it is more true to what is happening.
+
+    Be careful though, auto or 0 will override existing top and bottom margins.
+    Most times (like this) it is perfectly ok!
+  */
+
+  width: 50%;
+  /*
+    just a general piece of advice:
+    typically you leave the body free of layout styles
+    like `width`.
+    the only thing people will sometimes do is `height: 100%;`
+    but forget about that case for now.
+
+    People will override default body margins with margin: 0;
+
+    For width and stuff, wrap your shit in a container just inside the body element.
+    OR give your header, main, and footer a "container" class and style the width / centering there.
+  */
+}
+
+main {
+  margin-bottom: 150px;
+}
+
+.title {
+  text-align: center;
+  font-size: 70px;
+  color: ivory;
+  background-color: #36a7ec;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+h1 {
+  color: #b6b6b6;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.section-one {
+  text-align: center;
+  padding: 10px;
+  margin auto;
+}
+
+.inline {
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.block-1 {
+ background-color: #36a7ec;
+}
+
+.block-2 {
+  background-color: #dd6363;
+  color: #d0aa8b;
+}
+
+.block-3 {
+  background-color: #b6b6b6;
+  color: #dd6363;
+}
+
+.block-4 {
+  background-color: ivory;
+  color: #dd6363;
+}
+
+.block-5 {
+  background-color: #dd6363;
+  color: #d0aa8b;
+}
+
+.block-6 {
+  background-color: #36a7ec;
+  color: black;
+}
+
+.block-7 {
+  background-color: black;
+  color: #d0aa8b;
+}
+
+.block-8 {
+  color: #dd6363;
+  background-color: #b6b6b6;
+}
+
+.block-9 {
+  color: #dd6363;
+  background-color: #b6b6b6;
+}
+
+.block-10 {
+  color: ivory;
+  border-radius: 5px;
+  background-color: #dd6363;
+}
+
+.block-11 {
+  color: #dd6363;
+  background-color: #b6b6b6;
+}
+
+.block-12 {
+  color: #dd6363;
+  background-color: #b6b6b6;
+}
+
+.block-13 {
+  color: black;
+  background-color: #36a7ec;
+}
+
+.block-wrapper {
+  display: inline-block;
+  border-radius: 2px;
+  padding: 1px;
+  background-color: grey;
+}
+
+.sq-paragraph {
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 2px;
+  margin: 5% auto;
+  margin-bottom: -5px;
+  width: 150px;
+  vertical-align: top;
+  background-color: #b6b6b6;
+  color: grey;
+}
+
+.two .left {
+  background-color: #b6b6b6;
+  margin-right: auto;
+  width: 25%;
+  padding: 60px 0px;
+  border-radius: 2px;
+  text-align: center;
+  color: ivory;
+}
+
+.two .middle {
+  background-color: #36a7ec;
+  margin: auto;
+  width: 50%;
+  padding: 60px 0px;
+  border-radius: 2px;
+  text-align: center;
+  color: ivory;
+}
+
+.two .right {
+  background-color: #dd6363;
+  margin-left: auto;
+  width: 25%;
+  padding: 60px 0px;
+  border-radius: 2px;
+  text-align: center;
+  color: ivory;
+}
+
+.four {
+  padding: 20px;
+  color: #b6b6b6;
+}
+
+.blocked-span {
+  display: block;
+  text-align: center;
+  background-color: #36a7ec;
+  padding: 50px;
+  border-radius: 2px;
+  color: ivory;
+}
+
+.five {
+  color: #b6b6b6;
+}
+
+.inline-block-span {
+  display: inline-block;
+  padding: 50px;
+  border-radius: 2px;
+  background-color: #36a7ec;
+  color: ivory;
+}
+
+.six {
+  color: #b6b6b6;
+}
+
+span {
+  background-color: #36a7ec;
+  padding: 15px;
+  border-radius: 2px;
+}
+
+footer {
+  margin: auto;
+  width: 25%;
+  color: #b6b6b6;
+}
