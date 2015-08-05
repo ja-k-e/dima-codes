@@ -5,12 +5,17 @@ body {
   /*
     margin-top: auto;
     margin-bottom: auto;
-    translates to 0, because...just because.
+    translate to 0, because...just because.
     I have never used either.
 
     Commonly, people say:
     margin: 0 auto;
-    Because it is more true to what is happening.
+
+    Because it is more true to what is happening:
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
 
     Be careful though, auto or 0 will override existing top and bottom margins.
     Most times (like this) it is perfectly ok!
