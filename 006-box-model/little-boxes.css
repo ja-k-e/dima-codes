@@ -1,12 +1,11 @@
 body {
   background-color: #ffffff;
   font-family: sans-serif;
-  margin: auto;
-  width: 50%;
 }
 
-main {
-  margin-bottom: 150px;
+.container {
+  margin: 50px auto 50px;
+  width: 50%;
 }
 
 .title {
@@ -16,8 +15,6 @@ main {
   background-color: #36a7ec;
   border-radius: 10px;
   padding: 10px;
-  margin-top: 50px;
-  margin-bottom: 70px;
 }
 
 h1 {
@@ -123,7 +120,7 @@ h1 {
   color: grey;
 }
 
-.two .left {
+.section-two .left {
   background-color: #b6b6b6;
   margin-right: auto;
   width: 25%;
@@ -133,7 +130,7 @@ h1 {
   color: ivory;
 }
 
-.two .middle {
+.section-two .middle {
   background-color: #36a7ec;
   margin: auto;
   width: 50%;
@@ -143,7 +140,7 @@ h1 {
   color: ivory;
 }
 
-.two .right {
+.section-two .right {
   background-color: #dd6363;
   margin-left: auto;
   width: 25%;
@@ -153,7 +150,7 @@ h1 {
   color: ivory;
 }
 
-.four {
+.section-three {
   padding: 20px;
   color: #b6b6b6;
 }
@@ -167,7 +164,7 @@ h1 {
   color: ivory;
 }
 
-.five {
+.section-four {
   color: #b6b6b6;
 }
 
@@ -179,7 +176,7 @@ h1 {
   color: ivory;
 }
 
-.six {
+.section-five {
   color: #b6b6b6;
 }
 
@@ -189,8 +186,8 @@ span {
   border-radius: 2px;
 }
 
-footer {
-  margin: auto;
+.copyright {
+  margin: 30px auto;
   width: 25%;
   color: #b6b6b6;
 }
