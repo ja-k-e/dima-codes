@@ -44,7 +44,7 @@ table {
 
 
 .container {
-  margin: 150px auto 40px;
+  margin: 150px auto 35px;
   width: 50%;
   text-align: center;
 }
@@ -52,11 +52,11 @@ table {
 #logo {
   font-family: Georgia, Cambria, Times New Roman, Times, serif;
   color: black;
-  font-size: 35px;
+  font-size: 33px;
   letter-spacing: 5px;
   text-transform: uppercase;
   font-weight: 600;
-  padding: 40px;
+  padding: 40px 40px 20px 40px;
 }
 
 .navigation, li {
