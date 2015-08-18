@@ -25,3 +25,35 @@ We can make links on our page that bring us to designated parts of the same page
 					  ...
 					  </body>
 
+####Email Address Links
+
+We can make links that open a default mail client on a user's computer with a pre-populated email address to which the email is supposed to be sent. 
+
+We can also add some other automated features to the email address link:
+
+- Autofill the ***subject*** field with a desired title
+- Autofill the ***body*** field with a desired message
+
+The syntax of an email link I just described should look something like this: 
+
+`<a href="mailto:example@email.com?subject=Saying%20Hello&body=I%20hope%you%20are%20doing%20well">Email Me!</a>`
+
+***Breaking it down***
+
+- Like any other link that we've created so far, the mail link begins with an `<a>...</a>` (anchor) tag with the attribute `href`.
+
+- The first value of the `href` attribute is the value `mailto:example@email.com`. This is the destination of where the email will be sent.
+
+- In order to add other parameters (pre-populating the subject field and body with a predefined message in this case) we need to start with `?`directly after the email address we provided. The `?` binds all of the parameters we want to attribute to the email address link. 
+
+- After the `?`we add our parameters. `subject=` is the subject line parameter. The value of our `subject=` parameter (the message we want to put into the subject field) needs to have `%20` where there would be any white space between words or characters. 
+
+- If we want to add other parameters to our link, like filling out a short message in the body of the email, we need to use the `&` in order to bind the parameters to each other. 
+
+- As with white spaces, which need to be encoded with `%20`, line breaks need to be encoded with `%A0`.
+
+- <a href="https://yoast.com/guide-mailto-links">More `mailto:`options here.</a>
+
+
+
+
