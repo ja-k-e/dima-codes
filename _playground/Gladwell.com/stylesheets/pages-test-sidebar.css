@@ -1,0 +1,142 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+.container {
+  margin: 10px auto 40px;
+  width: 50%;
+  text-align: center;
+}
+
+#logo {
+  font-family: Georgia, Cambria, Times New Roman, Times, serif;
+  color: black;
+  font-size: 35px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 20px 40px 40px;
+}
+
+.navigation, li {
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #b8d2be;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation span {
+  color: black;
+  
+}
+
+.navigation .item-1 {
+  padding-right: 10px;
+}
+
+.navigation .item-2, .item-3, .item-4 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navigation .item-5 {
+  padding-left: 10px; 
+}
+
+/* this wraps the sidebar and the main book article/title */
+.content-wrapper {
+  background-color: red; /* the background is red for visual reference while building the sidebar */
+  margin: 0 auto;
+  width: 50%;
+}
+
+/* sidebar in progress */
+.sidebar {
+  display: inline-block;
+  margin-right: 96px;
+}
+
+/* Book image next to the article. It's the top of the sidebar */
+img {
+  width: 156px; 
+}
+
+.article {
+  display: inline-block;
+  margin: 0 auto;
+  width: 50%;
+  text-align: left;
+}
+
+.book-title {
+  font-family: Georgia, Cambria, Times New Roman, Times, serif;
+  font-size: 30px;
+  color: #136926;
+  padding: 40px;
+  padding-left: 0px;
+}
+
+.synopsis {
+  font-family: Georgia, Cambria, Times New Roman, Times, serif;
+  line-height: 1.5;
+}
+
+em {
+  font-style: italic;
+}
+
+.copyright {
+  text-align: center;
+  font-family: Georgia, Cambria, Times New Roman, Times, serif;
+  font-size: 12px;
+  color: #999;
+  padding: 100px;
+}
