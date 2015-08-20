@@ -100,8 +100,22 @@ a {
 
 /* sidebar in progress */
 .sidebar {
+  background-color: green;
   display: inline-block;
-  margin-right: 96px;
+  vertical-align: top;
+  margin-right: 60px;
+  text-align: center;
+}
+
+.side-book-title {
+  clear: both;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Georgia", Cambria, Times New Roman, Times, serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: thin dashed #333333;
+  margin-top: 15px;
 }
 
 /* Book image next to the article. It's the top of the sidebar */
@@ -110,6 +124,7 @@ img {
 }
 
 .article {
+  background-color: orange;
   display: inline-block;
   margin: 0 auto;
   width: 50%;
