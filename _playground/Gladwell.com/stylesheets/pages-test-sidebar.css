@@ -93,21 +93,19 @@ a {
 
 /* this wraps the sidebar and the main book article/title */
 .content-wrapper {
-  background-color: red; /* the background is red for visual reference while building the sidebar */
   margin: 0 auto;
   width: 50%;
 }
 
 /* sidebar in progress */
 .sidebar {
-  background-color: green;
   display: inline-block;
   vertical-align: top;
   margin-right: 60px;
   text-align: center;
 }
 
-.side-book-title {
+.sidebar-book-title {
   clear: both;
   text-align: center;
   font-size: 15px;
@@ -116,18 +114,31 @@ a {
   text-transform: uppercase;
   border-bottom: thin dashed #333333;
   margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.sidebar-non-link {
+  font-family: "Georgia", Cambria, Times New Roman, Times, serif;
+  font-size: 11px; 
+  font-style: italic;
+  line-height: 2;
+}
+
+.sidebar-links li {
+  display: block;
+  line-height: 2;
 }
 
 /* Book image next to the article. It's the top of the sidebar */
 img {
-  width: 156px; 
+  width: 128px;
+  height: 186px; 
 }
 
 .article {
-  background-color: orange;
   display: inline-block;
   margin: 0 auto;
-  width: 50%;
+  width: 64%;
   text-align: left;
 }
 
@@ -142,6 +153,7 @@ img {
 .synopsis {
   font-family: Georgia, Cambria, Times New Roman, Times, serif;
   line-height: 1.5;
+  color: #565656;
 }
 
 em {
