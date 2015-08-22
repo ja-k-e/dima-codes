@@ -93,7 +93,7 @@ a {
 
 /* this wraps the sidebar and the main book article/title */
 .content-wrapper {
-  margin: 0 auto;
+  margin: 50px auto;
   width: 50%;
 }
 
@@ -115,13 +115,16 @@ a {
   border-bottom: thin dashed #333333;
   margin-top: 15px;
   margin-bottom: 15px;
+  color: #565656;
 }
 
 .sidebar-non-link {
   font-family: "Georgia", Cambria, Times New Roman, Times, serif;
-  font-size: 11px; 
+  font-size: 10px; 
   font-style: italic;
   line-height: 2;
+  letter-spacing: 1px;
+  color: #565656;
 }
 
 .sidebar-links li {
