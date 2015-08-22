@@ -59,6 +59,7 @@ table {
   padding: 20px 40px 40px;
 }
 
+/* Begin main page / top of the page links */
 .navigation, li {
   display: inline-block;
   font-family: Helvetica, Arial, sans-serif;
@@ -94,14 +95,15 @@ a :hover {
 .navigation .item-5 {
   padding-left: 10px; 
 }
+/* End links */
 
-/* this wraps the sidebar and the main book article/title */
+/* This wraps the sidebar, book title and book synopsis */
 .content-wrapper {
   margin: 50px auto;
   width: 50%;
 }
 
-/* sidebar in progress */
+/* This wraps the sidebar contents. */
 .sidebar {
   display: inline-block;
   vertical-align: top;
@@ -136,12 +138,13 @@ a :hover {
   line-height: 2;
 }
 
-/* Book image next to the article. It's the top of the sidebar */
+/* Book image */
 img {
   width: 128px;
   height: 186px; 
 }
 
+/* This wraps the title and book synopsis */
 .article {
   display: inline-block;
   margin: 0 auto;
