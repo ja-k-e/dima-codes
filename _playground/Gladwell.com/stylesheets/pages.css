@@ -59,6 +59,7 @@ table {
   padding: 20px 40px 40px;
 }
 
+/* Begin main page / top of the page links */
 .navigation, li {
   display: inline-block;
   font-family: Helvetica, Arial, sans-serif;
@@ -71,6 +72,10 @@ table {
 
 a {
   text-decoration: none;
+}
+
+a :hover {
+  color: #136926;
 }
 
 .navigation span {
@@ -90,10 +95,60 @@ a {
 .navigation .item-5 {
   padding-left: 10px; 
 }
+/* End links */
 
+/* This wraps the sidebar, book title and book synopsis */
+.content-wrapper {
+  margin: 50px auto;
+  width: 50%;
+}
+
+/* This wraps the sidebar contents. */
+.sidebar {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 60px;
+  text-align: center;
+}
+
+.sidebar-book-title {
+  clear: both;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Georgia", Cambria, Times New Roman, Times, serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: thin dashed #333333;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #565656;
+}
+
+.sidebar-non-link {
+  font-family: "Georgia", Cambria, Times New Roman, Times, serif;
+  font-size: 10px; 
+  font-style: italic;
+  line-height: 2;
+  letter-spacing: 1px;
+  color: #565656;
+}
+
+.sidebar-links li {
+  display: block;
+  line-height: 2;
+}
+
+/* Book image */
+img {
+  width: 128px;
+  height: 186px; 
+}
+
+/* This wraps the title and book synopsis */
 .article {
+  display: inline-block;
   margin: 0 auto;
-  width: 35%;
+  width: 64%;
   text-align: left;
 }
 
@@ -108,6 +163,7 @@ a {
 .synopsis {
   font-family: Georgia, Cambria, Times New Roman, Times, serif;
   line-height: 1.5;
+  color: #565656;
 }
 
 em {
