@@ -40,7 +40,7 @@ a:hover {
   display: inline-block;
 }
 
-.navigation span {
+.navigation li span {
   font-size: 12px;
 }
 
