@@ -64,9 +64,7 @@ a:hover {
 /* This wraps the sidebar, book title and book synopsis */
 .content-wrapper {
   margin: 50px auto;
-  width: 50%; /* changed this from 50% for the time being 
-  because we have less horizontal space with this editor
-  */
+  width: 50%;
 }
 
 
@@ -75,18 +73,16 @@ a:hover {
   display: inline-block;
   vertical-align: top;
   margin-right: 60px;
-  text-align: center;
+  text-align: center; 
 }
 
 .sidebar-book-title {
-  clear: both;
   text-align: center;
   font-size: 15px;
   font-family: "Georgia", Cambria, Times New Roman, Times, serif;
   font-weight: normal;
   text-transform: uppercase;
   margin: 15px 0px;
-  width: auto;
   border-bottom: thin dashed #333333;
   color: #565656;
 }
