@@ -14,13 +14,13 @@ Grid
 
 
 .board {
-  margin: 100px auto;
-  width: 950px;
-  height: 950px;
+  margin: 0px auto;
+  width: 800px;
+  height: 800px;
 }
 
 .logo {
-  padding: 30px;
+  padding: 20px;
 }
 
 
@@ -30,8 +30,6 @@ Typography
 ===========================================================================
 */
 
-
-/* At the top of the board */
 .logo {
   text-align: center;
   text-transform: uppercase;
