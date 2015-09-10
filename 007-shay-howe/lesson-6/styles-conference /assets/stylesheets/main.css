@@ -213,6 +213,9 @@ Primary Header
   float: left;
   border-top: 4px solid #648880;
   font-size: 48px;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: .5px;
   line-height: 44px;
   padding: 40px 0px 22px 0px;
 }
