@@ -126,10 +126,15 @@ Links
 
 a {
   color: #648880;
+  text-decoration: none;
 }
 
 a:hover {
   color: #a9b2b9;
+}
+
+p a {
+  border-bottom: 1px solid #dfe2e5;
 }
 
 .teaser a:hover h3 {
