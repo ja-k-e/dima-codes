@@ -79,23 +79,70 @@ It doesn’t happen often, but occasionally text will need to be set in small ca
 			
 ######Shorhand Font Properties 
 
-- All of the font-based properties listed earlier may be combined and rolled into one font property and shorthand value. The font property can accept multiple font-based property values. The order of these property values should be as follows, from left to right: font-style, font-variant, font-weight, font-size, line-height, and font-family.
+- All of the font-based properties listed earlier may be combined and rolled into one font property and shorthand value. The font property can accept multiple font-based property values. The order of these property values should be as follows, from left to right: `font-style`, `font-variant`, `font-weight`, `font-size`, `line-height`, and `font-family`.
+
+		html {
+		  font: italic small-caps bold 14px/22px "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
 
 
-=============================================================================
+######Text Align 
+
+- The `text-align` property has five values: `left`, `right`, `center`, `justify`, and `inherit`.
 
 
-<BR><BR><BR><BR><BR>
-.
-.
-.
-.
-.
-.
-.
+		p {
+		  text-align: center;
+		}
+
+- The `text-align` property should not be confused with the `float` property. The `text-align` values `left` and `right` will align text within an element to the left or right, whereas the `float` values left and right will move the entire element. Sometimes the `text-align` property will give us the desired outcome, and other times we may need to use the float property.		
+
+######Text Decoration
+
+- It accepts the keyword values of `none`, `underline`, `overline`, `line-through`, and `inherit`.
+
+		.note {
+		  text-decoration: underline;
+		}
+		
+- _Multiple `text-decoration` values may be applied to an element at once by space-separating each keyword within the value._
 
 
+######Text Indent 
+
+- The `text-indent` property indents the first line of text within an element. 
+
+- It uses all of the length values that have been covered so far: pixels, points, percentages, etc..
+
+- Positive `text-indent` values indent the first line of text inward, while negative `text-indent` values indent the first line of text outward. 
 
 
+		p {
+		  text-indent: 20px;
+		}
+		
+		
+######Text Tranform 
 
-***THERE IS MORE ON THE WAY LATER TODAY***	
+- While the `font-variant` property looks for an alternate variant of a typeface, the `text-transform` property will change the text inline without the need for an alternate typeface. The `text-transform` property accepts five values: `none`, `capitalize`, `uppercase`, `lowercase`, and `inherit`.
+
+- The `capitalize` value will capitalize the first letter of each word, the `uppercase` value will capitalize every letter, and the `lowercase` value will make every letter lowercase. Using `none` will return any of these inherited values back to the original text style.
+
+		p {
+		  text-transform: uppercase;
+		}
+		
+######Word and Letter Spacing 
+
+- It's the way it sounds. These properties and their values adjust the space between words and letters respectively. 
+
+-  A positive length value will push words or letters farther apart from one another, while a negative length value will pull them closer together. 
+
+		p {
+		  letter-spacing: -.5em;
+		}
+		
+		
+		p {
+		  word-spacing: .25em;
+		}
