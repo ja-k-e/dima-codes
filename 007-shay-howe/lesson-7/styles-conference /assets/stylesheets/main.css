@@ -146,6 +146,16 @@ p a {
   color: #a9b2b9;
 }
 
+.primary-header a,
+.primary-footer a {
+  color: #fff;
+}
+
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #648880;
+}
+
 /*
 =========================================================================
 Buttons 
