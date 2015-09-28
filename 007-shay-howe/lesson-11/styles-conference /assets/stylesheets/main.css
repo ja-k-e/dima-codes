@@ -373,6 +373,22 @@ table:last-child {
   margin-bottom: 0;
 }
 
+th, 
+td {
+  padding-bottom: 22px;
+  vertical-align: top;
+}
+
+th {
+  padding-right: 25px;
+  text-align: right;
+  width: 20%;
+}
+
+td {
+  width: 40%;
+}
+  
 /*
   ======================================================================
   Venue
