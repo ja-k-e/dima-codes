@@ -424,6 +424,14 @@ tbody td:only-of-type {
   padding-right: 0;
 }
 
+table a {
+  color: #888;
+}
+
+table h4 {
+  margin-bottom: 0;
+}
+
 /*
   ======================================================================
   Venue
